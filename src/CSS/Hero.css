@@ -1,0 +1,30 @@
+.hero1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero2 {
+  height: 16%;
+  width: 17%;
+
+  border: 1px solid white;
+  padding: "12px";
+  box-shadow: 7px 12px 11px 14px gray;
+}
+
+@media screen and (max-width: 800px) {
+  .hero1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  .hero2 {
+    width: 100%;
+    border: 1px solid white;
+    padding: "7px";
+    box-shadow: 7px 12px 11px 14px gray;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,33 @@
+.tech1 {
+    display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content:space-around;
+            margin-top:50px;
+  }
+  
+  .tech2 {
+    width: 20%;
+    height: 21%;
+    border: 1px solid white;
+    padding: 12px;
+    box-shadow: 7px 12px 21px 4px yellow;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .tech1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* flex-wrap: wrap; */
+    }
+    .tech2 {
+        width: 100%;
+        height: 21%;
+        border: 1px solid white;
+        padding: 12px;
+        box-shadow: 7px 12px 21px 4px yellow;
+        margin-top: 30px;
+      }
+  }
+  

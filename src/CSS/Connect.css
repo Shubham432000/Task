@@ -1,0 +1,65 @@
+.connect1 {
+  display: "flex";
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  /* background-color: red; */
+}
+.connect2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: -1000px;
+}
+
+.connect3 {
+  width: 1200px;
+  height: 30px;
+}
+
+.connect4 {
+  margin-left: -1000px;
+}
+
+.connect5 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -1600px;
+  }
+  .connect6 {
+    width: 1200px;
+    height: 30px;
+    margin-left: -1500px;
+  }
+
+@media screen and (max-width: 800px) {
+  .connect2 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -400px;
+  }
+
+  .connect5 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -1600px;
+  }
+  .connect6 {
+    width: 700px;
+    height: 30px;
+    margin-left: -1500px;
+  }
+
+  /* .connect7 {
+    width: 900px;
+    height: 30px;
+    margin-left: -100px;
+  } */
+  .connect3 {
+    width: 600px;
+    height: 30px;
+  }
+
+  .connect4 {
+    margin-left: -400px;
+  }
+}
