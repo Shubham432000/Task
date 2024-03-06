@@ -1,27 +1,27 @@
 import React from "react";
-import "../CSS/Tech.css"
+import "../CSS/Tech.css";
 
 const Tech = () => {
   return (
     <>
       <div>
-        <div style={{marginTop:"50px"}}>
+        <div style={{ marginTop: "50px" }}>
           <h1>
             Explore and enjoy the blogs written by our passionate techies.
           </h1>
         </div>
         <div
-        className="tech1"
-        //   style={{
-        //     display: "flex",
-        //     flexDirection: "row",
-        //     width: "100%",
-        //     justifyContent: "space-around",
-        //     marginTop:"50px"
-        //   }}
+          className="tech1"
+          //   style={{
+          //     display: "flex",
+          //     flexDirection: "row",
+          //     width: "100%",
+          //     justifyContent: "space-around",
+          //     marginTop:"50px"
+          //   }}
         >
           <div
-           className="tech2"
+            className="tech2"
             // style={{
             //   width: "20%",
             //   height: "21%",
@@ -53,7 +53,7 @@ alogues.html"
             </a>
           </div>
           <div
-          className="tech2"
+            className="tech2"
             // style={{
             //   width: "20%",
             //   height: "15%",
@@ -86,16 +86,7 @@ from-human-feedback.html"
               <p style={{ color: "blue", fontSize: "16px" }}>Read More</p>
             </a>
           </div>
-          <div
-          className="tech2"
-            // style={{
-            //   width: "20%",
-            //   height: "21%",
-            //   border: "1px solid white",
-            //   padding: "12px",
-            //   boxShadow: "7px 12px 21px 4px green",
-            // }}
-          >
+          <div className="tech2">
             <h3>The Fine Art of Tuning: Parameter-Efficient Fine-Tuning</h3>
             <p style={{ fontFamily: "Verdana", fontSize: "13px" }}>
               Welcome to our exploration of the fascinating world of large
@@ -116,16 +107,7 @@ l"
               <p style={{ color: "blue", fontSize: "16px" }}>Read More</p>
             </a>
           </div>
-          <div
-          className="tech2"
-            // style={{
-            //   width: "20%",
-            //   height: "21%",
-            //   border: "1px solid white",
-            //   padding: "12px",
-            //   boxShadow: "7px 12px 21px 4px blue",
-            // }}
-          >
+          <div className="tech2">
             <h3>PrivAIcy Matters: Balancing Privacy, Price, and Performance</h3>
             <p style={{ fontFamily: "Verdana", fontSize: "13px" }}>
               Welcome to the enthralling universe of Generative AI! Recognized

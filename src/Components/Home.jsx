@@ -10,12 +10,7 @@ const Home = () => {
     <>
       <div
        className="home1"
-        // style={{
-        //   display: "flex",
-        //   flexDirection: "row",
-        //   justifyContent: "space-between",
-          
-        // }}
+     
        
       >
       

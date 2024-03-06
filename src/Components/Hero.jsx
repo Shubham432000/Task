@@ -9,15 +9,10 @@ const Hero = () => {
     <>
       <div
       className="hero1"
-        // style={{
-        //   display: "flex",
-        //   flexDirection: "row",
-        //   justifyContent: "space-around",
-        //   width: "100%",
-        // }}
+       
       >
         <div className="hero2" 
-        // style={{height:"16%", width: "17%", border: "1px solid white",padding:"12px",  boxShadow: "7px 12px 11px 14px gray" }}
+      
         >
           <img src={block} alt="" />
           <h3 style={{fontFamily:"Verdana"}}>Explore AI Opportunities for Your Enterprise</h3>
@@ -28,7 +23,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="hero2" 
-        //  style={{height:"16%", width: "17%", border: "1px solid white" ,padding:"12px", boxShadow: "7px 12px 11px 14px gray" }}
+        
          >
           <img src={growth} alt="" />
           <h3 style={{fontFamily:"Verdana"}}>Design AI Trust Layer</h3>
@@ -40,7 +35,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="hero2"
-        //  style={{height:"16%", width: "17%", border: "1px solid white",padding:"12px", boxShadow: "7px 12px 11px 14px gray"  }}
+        
          >
           <img src={home} alt="" />
           <h3 style={{fontFamily:"Verdana"}}>Scalability-Focused Solutions</h3>
@@ -52,7 +47,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="hero2" 
-        //  style={{height:"16%", width: "17%", border: "1px solid white" ,padding:"12px", boxShadow: "7px 12px 11px 14px gray" }}
+        
          >
           <img src={home} alt="" />
           <h3 style={{fontFamily:"Verdana"}}>End to end Workflow automation</h3>

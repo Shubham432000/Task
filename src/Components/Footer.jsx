@@ -12,42 +12,32 @@ const Footer = () => {
     <>
       <div
         className="footer1"
-        //   style={{ display: "flex", flexDirection: "row" }}
+      
       >
         <div
           className="footer2"
-          // style={{ width: "40%" }}
+   
         >
           <img src={footer} alt="" style={{ width: "200px", height: "50px" }} />
           <h3>Bluetick Consultants LLP</h3>
         </div>
         <div
           className="footer3"
-          // style={{ display: "flex", flexDirection: "column", width: "60%" }}
+       
         >
           <div
             className="footer4"
-            // style={{
-            //   display: "flex",
-            //   flexDirection: "row",
-            //   width: "30%",
-            //   justifyContent: "space-between",
-            // }}
+        
           >
             <p style={{ fontSize: "17px", fontWeight: "bold" }}>Resoureces</p>
             <p style={{ fontSize: "17px", fontWeight: "bold" }}>Products</p>
           </div>
           <div
             className="footer5"
-            // style={{
-            //   display: "flex",
-            //   flexDirection: "row",
-            //   width: "72%",
-            //   justifyContent: "space-between",
-            // }}
+          
           >
             <div className="footer6" 
-            // style={{ width: "10%" }}
+         
             >
               {" "}
               <p style={{ fontSize: "14px", fontWeight: "bold" }}>
@@ -58,12 +48,7 @@ const Footer = () => {
             </div>
             <div
               className="footer7"
-              //   style={{
-              //     display: "flex",
-              //     flexDirection: "row",
-              //     justifyContent: "space-between",
-              //     width: "70%",
-              //   }}
+         
             >
               <p style={{ fontSize: "14px", fontWeight: "bold" }}>
                 <IoIosArrowForward size={12} color="#000" />
@@ -105,7 +90,7 @@ const Footer = () => {
 
       <div
         className="footer8"
-        // style={{ display: "flex", flexDirection: "row", marginTop: "100px" }}
+      
       >
         <div style={{ width: "33%" }}>
           <img src={glass} alt="" style={{ width: "150px", height: "90px" }} />
